@@ -33,7 +33,7 @@ struct ContentView: View {
                             }) {
                                 Image(systemName: "ellipsis.circle.fill")
                                     .font(.system(size: 30))
-            //                        .foregroundColor(.white)
+     
                                     .padding()
                                 Spacer()
                                 Button(action: {
@@ -41,7 +41,7 @@ struct ContentView: View {
                                 }) {
                                     Image(systemName: "questionmark.circle.fill")
                                         .font(.system(size: 30))
-            //                            .foregroundColor(.white)
+         
                                         .padding()
                                 }
                             }
